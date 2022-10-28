@@ -287,7 +287,215 @@ doc["aitetris"].bind("click", aitetris.do)
 <p><span>Week 5 : </span>在<span> stud.cycu.org </span>建立帳號。</p>
 <p><span>Week 6 : </span>利用<span> Replit </span>與自建的<span> Ubuntu </span>伺服器執行。</p>
 <p><span>Week 7 : </span>將<span>acp</span>更新成新版本<span>(</span>可在靜態網頁<span>acp)</span></p>
-<h2><span>W8</span></h2>
-<p><span><img alt="" height="506" src="/images/123.png" width="900"/></span></p>
+<h2>w3</h2>
+<p><span>建立課程帳號及replit帳號</span></p>
+<ol>
+<li data-aria-level="1" data-aria-posinset="1"><span data-contrast="auto"><span>透過   mdecad2022   的 organization 建立個人可以管理的倉儲 (site-Github_帳號)</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="2"><span data-contrast="auto"><span>利用   replit 帳號所啟動的動態網站進行內容管理</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="3"><span data-contrast="auto"><span>動態轉為靜態網站內容之後,   要設法與 Github 倉儲同步.</span></span><span> </span></li>
+</ol>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>之後申請帳號都使用 @nfu   電子郵箱</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>修補課程網站安全疑慮:</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>目的:   不想讓 config/config 帶有編碼後的管理者密碼</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>執行步驟:</span></span><span> </span></p>
+<p><span> </span></p>
+<ol>
+<li data-aria-level="2" data-aria-posinset="1"><span data-contrast="auto"><span>必須先在個人的 mdecad2022/site-github_帳號  倉儲進行處理</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="2"><span data-contrast="auto"><span>第一步就是刪除 config/config 設定檔案</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="3"><span data-contrast="auto"><span>修改 .gitignore 成為:  <span> </span></span></span><a href="https://raw.githubusercontent.com/mdecad2022/site-41023242/main/.gitignore"><span data-contrast="auto"><span>https://raw.githubusercontent.com/mdecad2022/site-41023242/main/.gitignore</span></span></a><span data-contrast="auto"><span> </span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="4"><span data-contrast="auto"><span>加入 main.py:  <span> </span></span></span><a href="https://raw.githubusercontent.com/mdecad2022/site-41023242/main/main.py"><span data-contrast="auto"><span>https://raw.githubusercontent.com/mdecad2022/site-41023242/main/main.py</span></span></a><span data-contrast="auto"><span> </span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="5"><span data-contrast="auto"><span>在倉儲根目錄加入   nocache.py, 內容如:  <span> </span></span></span><a href="https://github.com/mdecycu/cmsimde/blob/2a41b26b6d9b1446a8b448bb6fb58a6dbb41c867/nocache.py"><span data-contrast="auto"><span>https://github.com/mdecycu/cmsimde/blob/2a41b26b6d9b1446a8b448bb6fb58a6dbb41c867/nocache.py</span></span></a><span data-contrast="auto"><span> </span></span><span> </span></li>
+</ol>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>之後再設法以   import 方式, 利用個人課程倉儲內容在  replit 建立  Repl 專案.</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>至於  Repl 專案, 必須在 Shell, 執行下列兩則指令:</span></span><span data-contrast="none"><span>git submodule update --init --recursive<span> </span></span></span><span><span> </span><br/></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>在倉儲根目錄執行   </span></span><span> </span></p>
+<p><span data-contrast="none"><span>表示要取下所有子模組的內容</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="none"><span>並且安裝啟動  cmsimde  所需要的  Python 模組:  </span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="none"><span>    pip install  <span> </span></span></span><span data-contrast="none"><span>flask flask_cors bs4 lxml pelican markdown gevent</span></span><span> </span></p>
+<p><span> </span></p>
+<p><a href="https://nfuedu.sharepoint.com/:v:/s/cad2022/ETBY6qMCthVKrmxkBA4FdmQBVD5UIJB-O_Mgtl1IA6xykg?e=IaMOwE"><span data-contrast="auto"><span>Replit 專案上的靜態內容同步至原始課程倉儲教學影片</span></span></a><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="none"><span>2b 開始在 <span> </span></span></span><a href="https://exam.cycu.org/"><span data-contrast="auto"><span>https://exam.cycu.org</span></span></a><span data-contrast="none"><span>  <span> </span></span></span><span data-contrast="none"><span>建立考試帳號.</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="none"><span>-----------------------------------------------</span></span><span> </span></p>
+<p><span data-contrast="none"><span>2a</span></span><span> </span></p>
+<p><span data-contrast="none"><span>雲端版</span></span><span> </span></p>
+<p><span data-contrast="none"><span>登入 github (靜態網站)</span></span><span> </span></p>
+<p><span data-contrast="none"><span>登入 replit (雲端動態網站)</span></span><span> </span></p>
+<p><span data-contrast="none"><span>登入<span> </span></span></span><span data-contrast="none"><span>https://mail.nfu.edu.tw</span></span><span data-contrast="none"><span><span> </span>(學號@nfu.edu.tw)</span></span><span> </span></p>
+<p><span data-contrast="none"><span>登入 Onedrive (需要 5TB 儲存資料, Teams 與 Meet 上課)</span></span><span> </span></p>
+<p><span data-contrast="none"><span>登入 Onshape (可以在平板與手機上繪製或檢視零組件)</span></span><span> </span></p>
+<p><span data-contrast="none"><span>-----</span></span><span> </span></p>
+<p><span data-contrast="none"><span>近端版</span></span><span> </span></p>
+<p><span data-contrast="none"><span>Siemens NX 2027 (高階 MCAD)</span></span><span> </span></p>
+<p><span data-contrast="none"><span>Solvespace (有原始碼的參數式繪圖軟體)</span></span><span> </span></p>
+<p><span data-contrast="none"><span>CoppeliaSim</span></span><span> </span></p>
+<p><span data-contrast="none"><span>可攜 Python</span></span><span> </span></p>
+<p><span data-contrast="none"><span>可攜 MSYS1</span></span><span> </span></p>
+<p><span data-contrast="none"><span>PC, Notebook</span></span><span> <br/></span></p>
+<h2>W4</h2>
+<p><span>電腦輔助設計室WIFI連線</span></p>
+<p><span data-contrast="auto"><span>SSID: 810WIFI</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>密碼: 056315360</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>通訊協定: Wi-Fi 4 (802.11n)</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>安全性類型: WPA2-Personal</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>網路頻帶: 2.4 GHz</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>網路通道: 9</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>連結速度 (接收/傳輸): 72/72 (Mbps)</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>IPv6 位址: </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>連結-本機 IPv6 位址: </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>IPv6 DNS 伺服器: </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>IPv4 位址: </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>IPv4 DNS 伺服器: </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>製造商: Realtek Semiconductor Corp.</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>描述: Realtek RTL8188EU Wireless LAN 802.11n USB 2.0 Network Adapter</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>驅動程式版本: 1030.38.712.2019</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>實體位址 (MAC): C4-6E-1F-10-C4-47</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>第四週上課筆記</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>在 Replit 執行動態網站:</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>必須進入 Shell, 在倉儲根目錄執行下列兩則指令 (取下子模組內容, 並安裝執行所需模組).</span></span><span> </span></p>
+<p><span data-contrast="none"><span>git submodule update --init --recursive</span></span><span> </span></p>
+<p><span data-contrast="none"><span>pip install   flask flask_cors bs4 lxml pelican markdown gevent</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>考試主機: <span> </span></span></span><a href="https://exam.cycu.org/"><span data-contrast="auto"><span>https://exam.cycu.org</span></span></a><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>每一位學員已經學會利用雲端與近端工具維護個人倉儲與網頁</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>近端工具: 下載  <span> </span></span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/ETBCz2KS00hBpbF1QtSlCY0B-4Qwl-qPfxsR9UMuKjK7OA?e=lLZ0QD"><span data-contrast="auto"><span>portable_python_3.10.6.7z</span></span></a><span> </span></p>
+<p><span data-contrast="auto"><span>    Portablegit</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>雲端工具: Replit</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>Web 分散式版次管理: <span> </span></span></span><a href="https://github.com/"><span data-contrast="auto"><span>https://github.com</span></span></a><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>電腦輔助繪圖工具: </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>    近端 NX2027 與 Solvespace</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>    雲端:<span> </span></span></span><a href="https://onshape.com/"><span data-contrast="auto"><span>https://onshape.com</span></span></a><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>Notebook 權限設定 - 在瀏覽器中開啟 - 右上方 Share – Manage Access</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>_________________________________</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>登入 Github</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>登入 Replit</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>登入 Onedrive , </span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>遠端使用外部網路, 必須設定 140.130.17.4 port 3128 代理主機, 帳密都為: kmolab</span></span><span> </span></p>
+<p><span> </span></p>
+<p><a href="https://exam.cycu.org/"><span data-contrast="auto"><span>https://exam.cycu.org</span></span></a><span data-contrast="auto"><span> </span></span><span> </span></p>
+<h2><span>W5</span></h2>
+<p><span>透過 stud.cycu.org 執行動態網站 </span></p>
+<ol>
+<li data-aria-level="1" data-aria-posinset="1"><span data-contrast="auto"><span>(登入 stud.cycu.org)利用 @nfu 電子郵箱收到的帳號與密碼, 登入 stud.cycu.org:  在命令列視窗, 以 ssh </span></span><span data-contrast="auto"><span>cad學號@stud.cycu.org , 輸入對應密後, 可以登入系統</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="2"><span data-contrast="auto"><span>請到 excel 檔案 </span></span><a href="https://nfuedu-my.sharepoint.com/:x:/g/personal/yen_nfu_edu_tw/ET-JZNPkNtZDhFiLt8BGZZ4BFMVV1HE73WQt1V44y6vnCQ"><span data-contrast="auto"><span>查詢</span></span></a><span data-contrast="auto"><span> stud.cycu.org 中與帳號對應的近端 (給 127.0.0.1 使用) 與遠端 (給 stud.cycu.org) 埠號</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="3"><span data-contrast="auto"><span>(透過 sftp 建立近端目錄與 stud.cycu.org 帳號下的對應)  開啟另一個命令列, 執行 sftp </span></span><a href="mailto:%E5%B8%B3%E8%99%9F@stud.cycu.org"><span data-contrast="auto"><span>帳號@stud.cycu.org</span></span></a><span data-contrast="auto"><span>   </span></span><span data-contrast="auto"><span>輸入對應密碼, 即可建立近端目錄與遠端系統目錄間的對應.</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="4"><span data-contrast="auto"><span>與在近端(Windows)利用  SSH 建立 public/private keys 流程相同, 必須在 Linux (Ubuntu) 利用 ssh-keygen 建立 keys. 所產生的 id_rsa 為 private key, 而 id_rsa.pub 為 public key, 都位於 .ssh 目錄下.</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="5"><span data-contrast="auto"><span>利用 sftp  進入 stud.cycu.org 後, cd 到 .ssh, 以 get id_rsa.pub 將 public key 取至  Windows 後, 送到 Github -&gt; Settings -&gt; SSH and GPG 設定區, 透過 new key 登錄公鑰.</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="6"><span data-contrast="auto"><span>接下來要下載  </span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EQlQii99WuZEl2_6YB_WK28BgZ3sBCVZnmLjLFJS5kXuPQ?e=0i7OKP"><span data-contrast="auto"><span>config</span></span></a><span data-contrast="auto"><span> 設定檔案,  以 sftp 放入 stud.cycu.org 主機的 .ssh 目錄中.</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="7"><span data-contrast="auto"><span>上面的  config  主要設定 SSH 協定對  github.com  連線時的代理主機, 但取下  cmsimde  子模組使用的是  https,  因此執行下列  git clone 時將會同時用到   SSH  與 https  協定,  因此除了  .ssh  目錄下要有  config  設定檔案外, 也必須同時在  .gitconfig  檔案中設定  http.proxy,  也就是以 git config --global http.proxy </span></span><a href="http://p42.cycu.org:3128/"><span data-contrast="auto"><span>http://p42.cycu.org:3128</span></span></a><span data-contrast="auto"><span> </span></span><span data-contrast="auto"><span>設定供 https 連線使用的代理主機, 並且以  git config --global  user.name 以及  git config --global  user.email 設定提交用的身分註記.</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="8"><span data-contrast="auto"><span>在 stud.cycu.org 中, 以 git clone --recurse-submodules  </span></span><a href="mailto:git@github.com:mdecad2022/site-%E5%80%8B%E4%BA%BAgithub%E5%B8%B3%E8%99%9F.git"><span data-contrast="auto"><span>git@github.com:mdecad2022/site-個人github帳號.git</span></span></a><span data-contrast="auto"><span>   取下個人倉儲.</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="9"><span data-contrast="auto"><span>假如先前使用  git clone 並沒有取下  cmsimde 子模組內容, 只要在設定 https 代理主機後, 進入倉儲根目錄執行  git submodule update --init  --recursive  即可取下子模組內容.</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="10"><span data-contrast="auto"><span>接著下載 </span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EXD1ElHAqFNFk6LERfjLYNgBJ4mgWYGSRsRJhq2kQyxK1w?e=rEYXQB"><span data-contrast="auto"><span>server.py</span></span></a><span data-contrast="auto"><span>, 在 Windows 編輯 </span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EXD1ElHAqFNFk6LERfjLYNgBJ4mgWYGSRsRJhq2kQyxK1w?e=rEYXQB"><span data-contrast="auto"><span>server.py</span></span></a><span data-contrast="auto"><span>, 將個人分配到的 9xxxx 埠號填入後存檔, 以 sftp 放入上列取下的倉儲根目錄.</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="11"><span data-contrast="auto"><span>在 stud.cycu.org 系統中, 進入倉儲 (site-github帳號) 後, 執行 python3 server.py, 就可啟用動態網站.</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="12"><span data-contrast="auto"><span>設定完成後, 各學員將會有一個廣域網路上的動態網站 (取代 Replit 上的動態網站), </span></span><a href="https://stud.cycu.org:8xxxx"><span data-contrast="auto"><span>https://stud.cycu.org:8xxxx</span></span></a><span data-contrast="auto"><span>   看到個人的動態網站.</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="13"><span data-contrast="auto"><span>動態網站改版後, 轉為靜態, 必須透過 source </span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EZn5-jIdQ3pMmi_QxSVWWoYBHvcEtgUrAGCPiIlPyDQ6sw?e=9mc7rR"><span data-contrast="auto"><span>acp</span></span></a><span data-contrast="auto"><span> 以 SSH 將改版內容送回 github. (必須利用 chmod u+x acp 將 acp  檔案屬性改為對  user 可以 execute (也就是 x 屬性).</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="14"><span data-contrast="auto"><span>執行 source acp  "提交字串" 之前必須要 git config  --global user.name, </span></span><span data-contrast="auto"><span>git config  --global user.email, </span></span><span data-contrast="auto"><span>git config  --global http.proxy</span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="15"><span data-contrast="auto"><span>上述採用指令模式對  server sftp 也可以利用  </span></span><a href="https://portableapps.com/apps/internet/filezilla_portable"><span data-contrast="auto"><span>Filezilla portable</span></span></a><span data-contrast="auto"><span>, 以圖形介面完成. 而 ssh 也可以透過  putty.exe 執行遠端登入.</span></span><span> </span></li>
+</ol>
+<p><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>config under .ssh 目錄:</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>Host 就是 .ssh/config 設定的對應 session 名稱, 此處若 Host 設為 demo, 則 SSH 對應的 .git/config 中的 URL 就必須使用<span> </span></span></span><a href="mailto:git@demo:mdecad2022/site-scrum-1.git,"><span data-contrast="auto"><span>git@demo:mdecad2022/site-scrum-1.git,</span></span></a><span data-contrast="auto"><span><span> </span>demo 就是 Host, Port 則是隨後的 %p 也就 SSH 協定內定的 port 22, %h 則是 Hostname, 也就是 github.com</span></span><span> </span></p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><span data-contrast="auto"><span>1</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>2</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>3</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>4</span></span><span> </span></p>
+</td>
+<td>
+<p><span data-contrast="auto"><span>Host demo</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>User git</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>Hostname github.com</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>ProxyCommand /usr/bin/ncat --proxy p42.cycu.org:3128 --proxy-type http %h %p</span></span><span> </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>---------------------------------------</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>2a 在一台遠端 server, 執行個人倉儲的動態網頁.</span></span><span> </span></p>
+<p><span> </span></p>
+<ol>
+<li data-aria-level="2" data-aria-posinset="1"><span data-contrast="auto"><span>Login to<span> </span></span></span><a href="https://mail.nfu.edu.tw/"><span data-contrast="auto"><span>https://mail.nfu.edu.tw</span></span></a><span data-contrast="auto"><span>  -  查看登入 stud.cycu.org 伺服器的帳號密碼, 帳號為 cad+學號, 密碼為四個字元, 包括數字與小寫英文字母</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="2"><span data-contrast="auto"><span>請到 excel 檔案<span> </span></span></span><a href="https://nfuedu-my.sharepoint.com/:x:/g/personal/yen_nfu_edu_tw/ET-JZNPkNtZDhFiLt8BGZZ4BFMVV1HE73WQt1V44y6vnCQ"><span data-contrast="auto"><span>查詢</span></span></a><span data-contrast="auto"><span><span> </span>stud.cycu.org 中與帳號對應的近端 (給 127.0.0.1 使用, 9 開頭的 port) 與遠端 (給 stud.cycu.org, 8 開頭的 port) 埠號</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="3"><span data-contrast="auto"><span>修改可攜 Python 3.10.6 start.bat, 蓋掉第三行後重新啟動, 目的希望將操作系統的命令搜尋路徑放在可攜目錄搜尋路徑之後.</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="4"><span data-contrast="auto"><span>重新啟動可攜程式環境, 在其中一個命令列, ssh <span> </span></span></span><a href="mailto:cad+%E5%AD%B8%E8%99%9F@stud.cycu.org"><span data-contrast="auto"><span>cad+學號@stud.cycu.org</span></span></a><span data-contrast="auto"><span>, 表示要使用 secure shell 遠端登入到 stud.cycu.org, 這是一台 Linux 主機, 安裝 Ubuntu 22.04 Server.(若使用的網路連線協定並無 IPv6,  可將系統的 proxy 設為 140.130.17.4:3128 kmolab/kmolab)</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="5"><span data-contrast="auto"><span>在 ssh 登入畫面, 以 ssh-keygen 建立 key pairs, .ssh/id_rsa 為 private key, id_rsa.pub 為 public key</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="6"><span data-contrast="auto"><span>設法利用 Filezilla, 以 sftp 安全的(Secure)檔案(File)傳輸(Transmission)協定(Protocol), 與 stud.cycu.org 伺服器連結.</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="7"><span data-contrast="auto"><span>利用  Filezilla sftp 取下 id_rsa.pub, 登錄至 Github 帳號下的 Setting - &gt;  SSH and GPG keys.</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="8"><span data-contrast="auto"><span>對  server sftp 也可以利用 <span> </span></span></span><a href="https://portableapps.com/apps/internet/filezilla_portable"><span data-contrast="auto"><span>Filezilla portable</span></span></a><span data-contrast="auto"><span>, 以圖形介面完成. 而 ssh 也可以透過  putty.exe 執行遠端登入.</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="9"><span data-contrast="auto"><span>接下來要下載 <span> </span></span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EQlQii99WuZEl2_6YB_WK28BgZ3sBCVZnmLjLFJS5kXuPQ?e=0i7OKP"><span data-contrast="auto"><span>config</span></span></a><span data-contrast="auto"><span><span> </span>設定檔案,  以 sftp 放入 stud.cycu.org 主機的 .ssh 目錄中.</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="10"><span data-contrast="auto"><span>接下來要在  Ubuntu (也就是 stud.cycu.org 這台主機所安裝的操作系統) 中, 設定 .gitconfig, 總共包含三項設定: git config --global user.name "scrum-1", git config --global user.email  "scrum1@mde.tw"   以及 git config --global http.proxy http://p42.cycu.org:3128, 這三個設定必須在 ssh 登入畫面中執行, 設定完成檔案會存入帳號根目錄中的 .gitconfig</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="11"><span data-contrast="auto"><span>利用  git clone --recurse-submodules <span> </span></span></span><a href="mailto:git@demo:mdecad2022/site-scrum-1.git"><span data-contrast="auto"><span>git@demo:mdecad2022/site-scrum-1.git</span></span></a><span data-contrast="auto"><span>  demo</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="12"><span data-contrast="auto"><span>接著下載<span> </span></span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EXD1ElHAqFNFk6LERfjLYNgBJ4mgWYGSRsRJhq2kQyxK1w?e=rEYXQB"><span data-contrast="auto"><span>server.py</span></span></a><span data-contrast="auto"><span>, 在 Windows 編輯<span> </span></span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EXD1ElHAqFNFk6LERfjLYNgBJ4mgWYGSRsRJhq2kQyxK1w?e=rEYXQB"><span data-contrast="auto"><span>server.py</span></span></a><span data-contrast="auto"><span>, 將個人分配到的 9xxxx 埠號填入後存檔, 以 sftp 放入上列取下的倉儲根目錄.</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="13"><span data-contrast="auto"><span>登入  Ubuntu 後, 會使用的指令: pwd 代表 print working directory, clear -  清除螢幕, cd - 更換目錄, ls -l 列出目錄詳細內容, chmod u+x<span> </span></span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EZn5-jIdQ3pMmi_QxSVWWoYBHvcEtgUrAGCPiIlPyDQ6sw?e=9mc7rR"><span data-contrast="auto"><span>acp</span></span></a><span data-contrast="auto"><span><span> </span>表示讓 user 可以 execute acp script (能夠讓使用者以 source acp 加上提交字串進行 git add, git commit, git push, 如何在 Windows 執行 acp.bat 加上提交字串.</span></span><span> </span></li>
+</ol>
+<p><span> </span></p>
+<h2><span>W6<br/></span></h2>
+<p><span>在 stud.cycu.org 執行動態網站 </span></p>
+<p><span data-contrast="auto"><span>git config --global http.proxy </span></span><span data-contrast="auto"><span>http://p42.cycu.org:3128</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>git config --global user.name "name"</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>git config --global user.email "email"</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>git clone --recurse-submodules git@demo:mdecad2022/site-github_帳號.git s</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>git submodule update --init --recursive</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>python3 server.py</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>https://stud.cycu.org:8xxx</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>acp 放入倉儲後</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>chmod u+x acp </span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>source acp "提交說明字串"</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>python3 server.py &amp;</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>ps aux | grep "server.py"</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>kill -9 111919</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>cd s, cd cmsimde, git pull origin master</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>cd .., python3 server.py</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> </span></p>
+<p><span data-contrast="auto"><span>exit 推出 login</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>To fix the cmsimde bug on edit during https mode:</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>Need to cd cmsimde and do "git pull origin master" to update the cmsimde submodule files.</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>After that, go back to the repository root directory to execute python3 server.py &amp; to start the dynamic site.</span></span><span> </span></p>
+<p><span data-contrast="auto"><span> </span></span><span> <br/></span></p>
+<h2>W8</h2>
+<p><span>課程劼圖<br/></span></p>
+<p><span><img alt="" height="562" src="/images/1234.png" width="999"/></span></p>
 <p><span></span></p>
 <!-- editor2 結束 -->
