@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tcexamquestions version="14.8.5
+">
+	<header lang="en" date="2022-12-1 20:02:56">
+	</header>
+	<body>
+		<module>
+			<name>cad2022</name>
+			<enabled>true</enabled>
+			<subject>
+				<name>w5-w6影片</name>
+				<description>電腦輔助設計實習的課程相關考試題目.</description>
+				<enabled>true</enabled>
+				<question>
+					<enabled>true</enabled>
+					<type>multiple</type>
+					<difficulty>1</difficulty>
+					<position></position>
+					<timer>0</timer>
+					<fullscreen>false</fullscreen>
+					<inline_answers>false</inline_answers>
+					<auto_next>false</auto_next>
+					<description>請根據 [url=https://mde.tw/blog/] 第四、五週內容, 回答下面問題.</description>
+					<explanation></explanation>
+					<answer>
+						<enabled>true</enabled>
+						<isright>true</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>以 ssh-keygen 建立 private and public keys, 存放於 .ssh 目錄下, 以 sftp 取下 id_rsa.pub 放入 Github 後, 就可以利用 SSH 對 Github 倉儲改版.</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>true</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>各學員擁有動態網頁與靜態網頁的目的, 在能透過伺服器上的 Python 程式與靜態網頁上的 Brython 前端程式進行互動.</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>true</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>可以利用 git clone --recurse-submodules https://github.com/mdecad2022/site-Github_帳號.git 取下倉儲內容.</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>true</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>在倉儲根目錄, 執行 python3 server.py, 就可以在 https://stud.cycu.org:您所分配的_stud.cycu.org_埠號 擷取到倉儲的動態網站.</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>true</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>利用 chmod u+x acp 讓 acp 可以執行. 之後要執行 acp: source acp "提交字串"</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>false</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>自 w4 起, 利用一台 Ubuntu 虛擬主機建立各學員帳號, 並且利用雙埠號派送方式 (內部為 8xxxx, 外部為 9xxxx)</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>false</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>在 Windows cmd 命令提示字元視窗中, 可以利用ssh 帳號@stud.cycu.org 登入伺服器.</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>false</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>設定 git 指令的代理主機為 git config --global http.proxy "http://p42.cycu.org:8128"</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>false</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>使用 SSH 協定 git clone 個人位於 mdecad2022 帳號下的 site-scrum-1 倉儲指令為: git clone --recurse-submodules git@github.com:mdecp2022/site-scrum-1.com.tw</description>
+						<explanation></explanation>
+					</answer>
+                                        <answer>
+						<enabled>true</enabled>
+						<isright>false</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>各學員得以利用 https://stud.cycu.org 符號名稱執行個人倉儲中的動態網頁, 如同 Replit 上的雲端系統, 使用者可以將此動態網站內容與個人 Github 倉儲中的動態網頁同步.</description>
+						<explanation></explanation>
+				
+					</answer>
+				</question>
+			</subject>
+		</module>
+	</body>
+</tcexamquestions>

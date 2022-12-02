@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tcexamquestions version="14.8.5
+">
+	<header lang="en" date="2022-12-1 20:02:56">
+	</header>
+	<body>
+		<module>
+			<name>cad2022</name>
+			<enabled>true</enabled>
+			<subject>
+				<name>w5-w6影片</name>
+				<description>電腦輔助設計實習的課程相關考試題目.</description>
+				<enabled>true</enabled>
+				<question>
+					<enabled>true</enabled>
+					<type>multiple</type>
+					<difficulty>1</difficulty>
+					<position></position>
+					<timer>0</timer>
+					<fullscreen>false</fullscreen>
+					<inline_answers>false</inline_answers>
+					<auto_next>false</auto_next>
+					<description>請根據 [url=https://mde.tw/blog/] 第六週內容, 回答下面問題.</description>
+					<explanation></explanation>
+					<answer>
+						<enabled>true</enabled>
+						<isright>true</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>2022 Fall 課程進入第六週, 原本只在近端運作的個人倉儲動態網頁, 這學期可以利用 Replit 與自建的 Ubuntu 伺服器執行</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>true</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>自 w3 開始, 即便在電腦輔助設計室實體上課, 但採用的模式與 remote 上課相同</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>true</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>TCExam 作為課程線上考試的系統, 這個系統應該比任何能夠買到的封閉源系統都更有彈性, 唯一的限制就是尚無 OAuth2 登入系統</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>true</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>先前一直使用的 Ethercalc, 在配置的舊電腦無法開啟後, 已經無法在最新的 node.js 中運行</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>true</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>採用的 MCAD 分別為可自行編譯的 Solvespace, 雲端的 Onshape 與高階的 Siemens NX</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>false</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>假如設計的機構零件外型是在初始設計階段, Solvespace 無法勝任參數式零組件繪圖與設計分析的工作</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>false</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>目前 Solvespace 可以支援直接利用程式建構零組件</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>false</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description> Onshape 使用者可以直接利用瀏覽器、平板或手機建立零組件, 能讓一般使用者進行零件 API 的部分,但僅限 Featurescript, 後端的 API 不需要申請授權碼就能進行.</description>
+						<explanation></explanation>
+					</answer>
+					<answer>
+						<enabled>true</enabled>
+						<isright>false</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>在結合 Python 與 NX 的過程中, 無法直接從產品組立件所轉出的 STL 零件,透過 API 程式組成 CoppeliaSim 系統模擬所需的檔案格式.</description>
+						<explanation></explanation>
+					</answer>
+                                        <answer>
+						<enabled>true</enabled>
+						<isright>false</isright>
+						<position></position>
+						<keyboard_key></keyboard_key>
+						<description>一直以來的課程教學都希望採用與業界相同的工具及系統, 其中包括 Gmail, Microsoft 365 等工具,但不包含Github.</description>
+						<explanation></explanation>
+				
+					</answer>
+				</question>
+			</subject>
+		</module>
+	</body>
+</tcexamquestions>
