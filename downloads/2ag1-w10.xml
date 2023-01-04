@@ -8,7 +8,7 @@
 			<name>cad2022</name>
 			<enabled>true</enabled>
 			<subject>
-				<name>第二週內容</name>
+				<name>第十週內容</name>
 				<description>電腦輔助設計實習的課程相關考試題目.</description>
 				<enabled>true</enabled>
 				<question>
@@ -20,14 +20,14 @@
 					<fullscreen>false</fullscreen>
 					<inline_answers>false</inline_answers>
 					<auto_next>false</auto_next>
-					<description>請根據 [url=https://mde.tw/blog/] 第二週內容, 回答下面問題.</description>
+					<description>請根據 [url=https://mde.tw/blog/] 第十週內容, 回答下面問題.</description>
 					<explanation></explanation>
 					<answer>
 						<enabled>true</enabled>
 						<isright>true</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>目前課程網站放在同一個倉儲 [url=https://mde.tw/blog/pages/about/index.html],連結為 [url=https://mde.tw/blog/pages/about/index.html]</description>
+						<description>當使用 python3 server.py & 執行 process 後, ps axo pid,comm,uid | grep "python3" 的指令, 可以列出各自帳號下所 background 執行的 process pid, 若需要列出執行 process 對應目錄, 則可以利用 pwdx 加上 pid 後執行取得</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -35,7 +35,7 @@
 						<isright>true</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>計算機程式是從網頁上的 Python 語法教起, 採用的解譯器為 Brython</description>
+						<description>由於位於 github.com 上的個人倉儲使用子模組, 因此 git clone 之前必須先設定 ssh 對 github.com 連線的代理主機, 以及取下子模組用的 http 代理主機.</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -43,7 +43,7 @@
 						<isright>true</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>學員在計算機程式課程所寫的程式, 被要求要設法放入自己管理的 Github 倉儲, 而倉儲是採用 Github Classroom 建立, 並且直接導入 cmsimde 子模組.</description>
+						<description>若希望遠端登入 stud 伺服器的電腦, 只有 IPv4 網路協定, 則遠端登入使用 ssh 必須設定雙支援代理主機</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -51,7 +51,7 @@
 						<isright>true</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>要使用 https 或 ssh 協定進行 git, 主要牽涉到隨後改版 push 時的權限驗證, 因為只有具備倉儲管理權的用戶, 才能對 Github 上的倉儲進行改版.</description>
+						<description>假如連線的電腦位於校外, 則可以使用專責 Proxy 或透過校方所提供的 vpn 進行連線後, 再使用 ssh 遠端登入 stud 主機</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -59,7 +59,7 @@
 						<isright>true</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>以 https 擷取 Github 倉儲的時候, 需要在 URL 中加上帳號 token, 而這串連線驗證身分用的字串, 還帶有權限範圍, 以及時效, 使用者可以在 Github 帳號設定頁中取得.</description>
+						<description>使用者遠端登入 stud 主機後, 因為該主機只有 IPv6 網路, 因此對 github.com 主機的連線, 無論是 ssh 或 http 都必須設定 proxy 代理主機</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -67,7 +67,7 @@
 						<isright>false</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>Github 目前只支援 IPv6 協定, 而在電腦輔助設計室為了擴大可用頻寬, 採用 IPv4 協定</description>
+						<description>使用者登入 stud, 主要目的是利用主機上的 Python 3 執行位於 github.com 上的個人倉儲動態網站, 但不用 git clone 取下個人的倉儲</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -75,7 +75,7 @@
 						<isright>false</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>2022 Fall 所使用的 NX 為 2022.1201 版</description>
+						<description>大部分來自電腦輔助設計室的網路環境與自架伺服器都只部署在純 IPv4 的網路環境中</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -83,7 +83,7 @@
 						<isright>false</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>Coppeliasim 所使用的版本則為 3.4.0 rev12</description>
+						<description>完成將個人倉儲取下至個人帳號下的工作目錄後, 因為要採 waitress 方式執行 cmsimde, 因此還需要取得對應的 server.py, 必須放入倉儲目錄中, 另外 acp 也必須使用 Windows 的指令格式</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -91,7 +91,7 @@
 						<isright>false</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description> git 所使用的 SSH 連線協定, 在 Windows 操作系統, 可以透過 Putty session 設定達成, 其中的 session 不包含連線到 github.com</description>
+						<description>若希望遠端登入 stud 伺服器的電腦, 使用 IPv6 網路協定, 可以直接以 ssh 連線, 但 sftp 不可以直接連線.</description>
 						<explanation></explanation>
 					</answer>
                                         <answer>
@@ -99,7 +99,7 @@
 						<isright>false</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>lxml 是將靜態網頁內容轉為動態網頁內容時所需要的解讀模組.</description>
+						<description>stud 主機不僅支援 IPv6 網路協定還支援 IPv4 網路協定, 因此 ssh, sftp 以及 http 等連線的使用可以透過雙支援協定與 IPv4 的電腦相連</description>
 						<explanation></explanation>
 				
 					</answer>

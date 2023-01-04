@@ -8,7 +8,7 @@
 			<name>cad2022</name>
 			<enabled>true</enabled>
 			<subject>
-				<name>第二週內容</name>
+				<name>第八週內容</name>
 				<description>電腦輔助設計實習的課程相關考試題目.</description>
 				<enabled>true</enabled>
 				<question>
@@ -20,14 +20,14 @@
 					<fullscreen>false</fullscreen>
 					<inline_answers>false</inline_answers>
 					<auto_next>false</auto_next>
-					<description>請根據 [url=https://mde.tw/blog/] 第二週內容, 回答下面問題.</description>
+					<description>請根據 [url=https://mde.tw/blog/] 第八週內容, 回答下面問題.</description>
 					<explanation></explanation>
 					<answer>
 						<enabled>true</enabled>
 						<isright>true</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>目前課程網站放在同一個倉儲 [url=https://mde.tw/blog/pages/about/index.html],連結為 [url=https://mde.tw/blog/pages/about/index.html]</description>
+						<description> NX 所用的版本為 NX2027.3401_lite</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -35,7 +35,7 @@
 						<isright>true</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>計算機程式是從網頁上的 Python 語法教起, 採用的解譯器為 Brython</description>
+						<description> Solvespace 版本為 3.1 版</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -43,7 +43,7 @@
 						<isright>true</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>學員在計算機程式課程所寫的程式, 被要求要設法放入自己管理的 Github 倉儲, 而倉儲是採用 Github Classroom 建立, 並且直接導入 cmsimde 子模組.</description>
+						<description> CoppeliaSim 版本為 CoppeliaSimEdu_4.3.0_rev12</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -51,7 +51,7 @@
 						<isright>true</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>要使用 https 或 ssh 協定進行 git, 主要牽涉到隨後改版 push 時的權限驗證, 因為只有具備倉儲管理權的用戶, 才能對 Github 上的倉儲進行改版.</description>
+						<description>電腦輔助設計與實習課程承接先前以 Brython 及 Python 為核心的計算機程式課程</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -59,7 +59,7 @@
 						<isright>true</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>以 https 擷取 Github 倉儲的時候, 需要在 URL 中加上帳號 token, 而這串連線驗證身分用的字串, 還帶有權限範圍, 以及時效, 使用者可以在 Github 帳號設定頁中取得.</description>
+						<description>當零組件設計繪圖完成後轉入 CoppeliaSim, 則可以利用 Python remote API 執行控制系統設計</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -67,7 +67,7 @@
 						<isright>false</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>Github 目前只支援 IPv6 協定, 而在電腦輔助設計室為了擴大可用頻寬, 採用 IPv4 協定</description>
+						<description>cmsimde 是一套利用 C++ 與 Flask 建立的網際內容管理系統</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -75,7 +75,7 @@
 						<isright>false</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>2022 Fall 所使用的 NX 為 2022.1201 版</description>
+						<description>大部分來自電腦輔助設計室的網路環境與自架伺服器都只部署在純 IPv4 的網路環境中</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -83,7 +83,7 @@
 						<isright>false</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>Coppeliasim 所使用的版本則為 3.4.0 rev12</description>
+						<description>用來查核個人是否啟動 python10 server.py 的 ps 指令為 ps axo pid,comm,user | grep "server.py" 只是 Quota 與 port 使用權限的配置仍需進一步思考最佳管理模式.</description>
 						<explanation></explanation>
 					</answer>
 					<answer>
@@ -91,7 +91,7 @@
 						<isright>false</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description> git 所使用的 SSH 連線協定, 在 Windows 操作系統, 可以透過 Putty session 設定達成, 其中的 session 不包含連線到 github.com</description>
+						<description>CAD 課程的重點是利用電腦輔助設計套件進行產品設計, 而 KMOLab 所使用的套件包含 Siemens NX, Solvespace ,但不包含Onshape</description>
 						<explanation></explanation>
 					</answer>
                                         <answer>
@@ -99,7 +99,7 @@
 						<isright>false</isright>
 						<position></position>
 						<keyboard_key></keyboard_key>
-						<description>lxml 是將靜態網頁內容轉為動態網頁內容時所需要的解讀模組.</description>
+						<description>機電模擬系統則採用 Solvespace</description>
 						<explanation></explanation>
 				
 					</answer>
